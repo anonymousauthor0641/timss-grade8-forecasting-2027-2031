@@ -1,0 +1,50 @@
+Repository Structure
+
+Dataset/
+---------
+Contains all datasets used in the study.
+
+Suggested files:
+- 01_timss_science_scores_raw.xlsx
+- 02_timss_mathematics_scores_raw.xlsx
+- 03_science_independent_variables_raw.xlsx
+- 04_mathematics_independent_variables_raw.xlsx
+- 05_science_independent_variables_harmonized.xlsx
+- 06_mathematics_independent_variables_harmonized.xlsx
+- 07_final_science_model_dataset.xlsx
+- 08_final_mathematics_model_dataset.xlsx
+- 09_arimax_coefficients_science.xlsx
+- 10_arimax_coefficients_mathematics.xlsx
+- 11_backtesting_results_all_models.xlsx
+- 12_forecast_results_2027_2031.xlsx
+
+Code/
+------
+Contains Python scripts used for dataset preparation, missing data handling, scale harmonization, ARIMAX-based variable ordering, model training, rolling back-testing, forecasting, evaluation metric calculation, and figure generation.
+
+Suggested files:
+- 00_create_datasets.py
+- 01_missing_data_and_scale_harmonization.py
+- 02_arimax_variable_ordering.py
+- 03_model_training_arima_prophet.py
+- 04_model_training_lstm_gru.py
+- 05_rolling_backtesting.py
+- 06_final_forecasting_gru_m4.py
+- 07_metric_tables_and_figures.py
+
+Documentation/
+---------------
+Contains supplementary materials supporting transparency and reproducibility.
+
+Suggested files:
+- README.md
+- Supplementary_File_S1.md
+- Variable_Definitions_and_Transformations.md
+- Data_Availability_Statement.txt
+- LICENSE.txt
+- requirements.txt
+- Repository_Structure.txt
+
+Figures/
+----------
+Contains figures generated during analysis and forecasting.

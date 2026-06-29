@@ -1,0 +1,18 @@
+Data Availability Statement
+
+All processed datasets, harmonized data files, forecasting outputs, supplementary documentation, figures, and Python scripts used in this study are provided through the accompanying repository and supplementary materials.
+
+The repository contains:
+- Raw TIMSS achievement score datasets
+- Processed TIMSS achievement score datasets
+- Harmonized independent-variable datasets
+- ARIMAX coefficient outputs
+- Rolling back-testing outputs
+- Final 2027 and 2031 forecast outputs
+- Python source code
+- Supplementary documentation
+- Software requirements
+
+The original TIMSS data are publicly available from the International Association for the Evaluation of Educational Achievement (IEA) TIMSS database and international reports.
+
+These materials are provided to support transparency, reproducibility, and future research. The forecasts should be interpreted as exploratory and conditional projections based on historical TIMSS data and selected independent variables, not as definitive predictions of future performance.
